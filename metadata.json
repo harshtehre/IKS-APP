@@ -1,0 +1,6 @@
+{
+  "name": "IKSphere",
+  "description": "Indian Knowledge Systems Learning Platform - Learn India's Knowledge. Understand Its Legacy. Build the Future.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
