@@ -1,0 +1,296 @@
+{
+  "course": {
+    "id": "course_computing_ancient_india",
+    "title": "Computing in Ancient India",
+    "sanskrit": "प्राचीनभारते संगणनम्",
+    "category": "Linguistics & CS",
+    "icon": "🧮",
+    "level": "Beginner → Intermediate",
+    "duration": "5 weeks",
+    "description": "A topic-led study of historical computing ideas, Pingala's metrical patterns, Katapayadi, formal grammar and Indian science and technology.",
+    "era": "Historical study",
+    "highlights": [
+      "History of computing science",
+      "Pingala and metrical patterns",
+      "Decimal and binary representations",
+      "Katapayadi and hashing comparisons",
+      "Panini, formal grammar and logic"
+    ],
+    "texts": [
+      "Piṅgala's Chandaḥsūtra tradition",
+      "Pāṇini's Aṣṭādhyāyī",
+      "Katapayadi numeral traditions"
+    ],
+    "lessons": [
+      {
+        "id": "les_computing_intro",
+        "title": "Introduction to Computing in Ancient India",
+        "sanskrit": "भारतीयगणनापरम्परा",
+        "iast": "bhāratīya-gaṇanā-paramparā",
+        "overview": "Study the history of computing science alongside examples of calculation, measurement and technical knowledge in South Asia.",
+        "content": "Computing can be studied as the systematic handling of information, not only as the use of electronic machines. A procedure takes some input, applies stated steps, uses a representation such as numerals or a table, and produces an output. The history of computing science therefore includes questions about how people counted, measured, recorded results and passed methods to others. This is a modern analytical lens: it does not mean that ancient practitioners called their work computing or used electronic computers.\n\nThe course uses mathematics and engineering to introduce ancient Indian scientific and technical practices. A mathematical procedure can be examined by identifying the quantities it starts with, the operations it applies and the result it is intended to obtain. An engineering example can be studied by asking what problem was addressed, what materials and measurements mattered, and how the design responded to its environment. In both cases, the method is part of a particular historical setting, not an isolated formula.\n\nFor a worked study, choose a documented calculation or measurement task and make a four-column record: input, steps, representation and output. Beside it, record the source or evidence, the period and place where it applies, and what remains uncertain. This lets us compare a repeatable procedure with a modern algorithm while keeping differences in purpose, tools and social context visible. A resemblance is a question for investigation, not proof that the historical practice was identical to present-day computer science.",
+        "english_meaning": "An introduction to historical calculation, systematic procedures and technical knowledge in India.",
+        "meter": "Instructional course title",
+        "historical_context": "The study compares documented mathematical and engineering practices across historical periods. The phrase computing in this course is used as a modern lens for studying procedures and representations, not as a claim that ancient societies used electronic computers.",
+        "modern_parallel": "Modern computer science studies information representation and algorithms. These ideas offer useful comparison points, while historical practices had different purposes, tools and social settings.",
+        "source": "Course topics: history of computing science; overview of ancient Indian science; science and technology beginnings, including mathematics and engineering.",
+        "takeaways": [
+          "Define computing broadly as representing information and applying repeatable procedures.",
+          "Distinguish historical calculation from electronic computing.",
+          "Identify mathematics and engineering as areas of historical technical practice.",
+          "Use evidence and context before making comparisons with modern computing."
+        ],
+        "practical": "Choose a historical counting or measurement task and describe its inputs, steps, tools and result.",
+        "minutes": 30,
+        "difficulty": "Beginner",
+        "concepts": [
+          "History of computing science :: Trace how people have represented quantities and organized repeatable calculation before electronic devices.",
+          "Meaning of computing :: In this historical course, computing refers to procedures and representations used to work with information.",
+          "Ancient Indian science overview :: Survey scientific knowledge as a diverse set of practices rather than a single uniform tradition.",
+          "Evidence and historical context :: Identify the text, object or scholarly evidence behind a historical claim.",
+          "Science and technology :: Separate the growth of explanatory knowledge from the design and use of practical techniques.",
+          "Mathematics as a technical practice :: Examine calculation, geometry and number representation as tools for solving defined problems.",
+          "Engineering as problem-solving :: Consider how design choices respond to materials, environment, measurement and human needs.",
+          "Procedures and algorithms :: Describe a repeatable sequence of steps without assuming it was implemented on a modern machine.",
+          "Historical comparison :: Compare a historical method with a modern idea while making differences in purpose and context explicit.",
+          "Limits of analogy :: Avoid equating ancient mathematical or linguistic systems with electronic computers or present-day programming."
+        ],
+        "checkpoint": {
+          "question": "How should this course use the word computing when studying ancient practices?",
+          "options": [
+            "As a lens for studying information, procedures and calculation in historical context",
+            "As proof that electronic computers existed in antiquity",
+            "As another name for every ancient text",
+            "As a claim that all historical science had one purpose"
+          ],
+          "answer_index": 0,
+          "explanation": "The course studies procedures and representations historically and distinguishes them from electronic computing."
+        },
+        "word_by_word": [
+          "gaṇanā — counting or calculation",
+          "vidyā — knowledge or learning",
+          "yantra — instrument or device"
+        ]
+      },
+      {
+        "id": "les_computing_binary",
+        "title": "Binary Numbers and Pingala's Metrical Tradition",
+        "sanskrit": "छन्दःशास्त्रम्",
+        "iast": "chandaḥśāstram",
+        "overview": "Learn how patterns of long and short syllables can be counted, represented and compared with binary notation.",
+        "content": "Prosody studies the organization of poetic sound and metre. In the tradition associated with Piṅgala, syllables are classified by duration, commonly described in this lesson as short (laghu) and long (guru). A sequence of n positions, with two choices at each position, has 2^n possible patterns. For three positions the eight patterns can be listed systematically rather than guessed. This is the mathematical idea of enumeration: choose a consistent order, generate each permitted case once, and check that none are missing.\n\nA binary numeral also uses two symbols, conventionally 0 and 1, but its value depends on place value. To make a comparison, explicitly map short to 0 and long to 1, then state which end of the sequence is the least-significant position. Under that chosen convention, long-short-long becomes 101₂, which has value 1×4 + 0×2 + 1×1 = 5 in decimal. Reverse the positional convention and the same written pattern may denote a different value. That is why the mapping and ordering rules must accompany any worked example.\n\nTo convert a decimal number to binary, repeatedly divide by two and record each remainder; reading the remainders from last to first gives the binary numeral. Check the answer by adding the positional weights back. This exercise teaches representation, combinatorics and reversible checking. It is a modern comparison for studying pattern methods, not a claim that Sanskrit prosody was electronic binary hardware or had the same purpose as contemporary computing.",
+        "english_meaning": "A study of metrical patterns and the careful conversion between pattern, decimal and binary representations.",
+        "meter": "Instructional course title",
+        "historical_context": "Pingala's prosodic tradition analyzes Sanskrit metre. Later descriptions of pattern enumeration are interpreted within the history of prosody; they should not be presented as modern binary hardware.",
+        "modern_parallel": "Binary notation represents values with two digits, commonly 0 and 1. Mapping long and short syllables onto these digits is a useful mathematical comparison, provided the chosen ordering convention is explicit.",
+        "source": "Course topics: preliminary binary concepts; Sanskrit metrical tradition associated with Pingala; decimal value of a metrical pattern; binary representation of a decimal number.",
+        "takeaways": [
+          "Represent a metrical pattern using two clearly defined symbols.",
+          "State whether the first syllable is treated as the most- or least-significant position.",
+          "Convert a binary pattern to decimal by assigning positional weights.",
+          "Convert a decimal integer to binary by repeated division by two."
+        ],
+        "practical": "Write all patterns of length three, choose and state an ordering convention, then convert one pattern to decimal and back.",
+        "minutes": 35,
+        "difficulty": "Beginner",
+        "concepts": [
+          "Preliminary: two-symbol representation :: Binary uses two symbols, conventionally 0 and 1, to represent values with positional weights.",
+          "Sanskrit metrical tradition :: Prosodic analysis classifies syllables and metre; the lesson treats this as the historical setting for pattern study.",
+          "Pingala and prosody :: The course topic associates Pingala with systematic analysis of Sanskrit metrical patterns.",
+          "Long and short syllables :: A pattern can be represented as a sequence of two categories once the categories are defined.",
+          "Pattern length :: A pattern with n positions has 2^n possible arrangements when each position has two choices.",
+          "Pattern enumeration :: Listing patterns requires a consistent order, such as lexicographic order or a counting order.",
+          "Decimal value of a pattern :: Assign positional weights to the symbols and add the weights for positions marked 1.",
+          "Place-value convention :: Reversing which end is the least-significant position changes the numeric value, so the convention must be stated.",
+          "Decimal to binary conversion :: Repeated division by two yields remainders that are read in reverse order to form the binary numeral.",
+          "Check the conversion :: Convert the binary result back to decimal and compare it with the original value."
+        ],
+        "checkpoint": {
+          "question": "Why must a learner state the order convention when converting a metrical pattern to a number?",
+          "options": [
+            "Because reversing bit order can change the positional value",
+            "Because binary numerals cannot contain zero",
+            "Because every pattern has only one position",
+            "Because decimal notation has no place values"
+          ],
+          "answer_index": 0,
+          "explanation": "A sequence's value depends on which end is assigned the least-significant position."
+        },
+        "word_by_word": [
+          "laghu — short syllable",
+          "guru — long syllable",
+          "chandas — metre or prosody",
+          "dvi — two"
+        ]
+      },
+      {
+        "id": "les_computing_katapayadi",
+        "title": "Katapayadi and Modern Hashing Comparisons",
+        "sanskrit": "कटपयादिसङ्ख्यापद्धतिः",
+        "iast": "kaṭapayādi-saṅkhyā-paddhatiḥ",
+        "overview": "Explore how the Katapayadi scheme maps syllables to numerals and compare that encoding task with modern hashing.",
+        "content": "Katapayadi is a traditional method for representing numbers with syllables. To work an example correctly, first select the consonant-to-digit table and reading convention supplied by the lesson's source; do not assume every regional or textual convention is identical. Then mark the consonants in the example, map each one to its digit, apply the stated digit order, and have a second reader decode the result using the same rules. Writing every step makes the encoding reproducible and exposes where a convention affects the answer. Vowels help form pronounceable syllables; the exact numerical reading still depends on the chosen rule set.\n\nThis gives a useful comparison with the general idea of mapping information into another representation, but Katapayadi and a modern cryptographic hash are not equivalent. Under a stated Katapayadi convention an example can be designed to communicate a number and may be decoded. A cryptographic hash is a modern computation with defined output and security properties; it is generally not intended to let a reader recover the original message. Similarity at the level of “mapping” does not establish shared purpose, mechanism or guarantees.\n\nThe syllabus also introduces Backus–Naur Form (BNF), a modern notation for describing formal-language syntax. A production rule such as <digit> ::= 0 | 1 says which symbols are allowed for that named syntactic category; multiple rules can describe how valid strings are built. Learners should distinguish this grammar exercise from the historical numeral scheme and should not attribute BNF to Pāṇini. The shared learning idea is that explicit rules make a representation easier to inspect and apply; the historical systems remain distinct.",
+        "english_meaning": "A guided look at a traditional syllable-to-number mapping and a careful comparison with modern hashing.",
+        "meter": "Instructional course title",
+        "historical_context": "Katapayadi belongs to historical Indian numerical and mnemonic practices. The precise interpretation of an example depends on the mapping and reading conventions used.",
+        "modern_parallel": "Hash functions map variable-length data to fixed-size values and are designed for specific computational properties. Katapayadi is a symbolic encoding tradition; comparing them can clarify what mapping means but does not make them equivalent.",
+        "source": "Course topics: introduction to hashing; Katapayadi scheme; an application of Katapayadi; introduction to Panini-Backus forms; BNF notation.",
+        "takeaways": [
+          "Use a stated consonant-to-digit table when encoding a Katapayadi example.",
+          "Document whether digits are read in forward or reverse order.",
+          "Explain the difference between encoding and hashing.",
+          "Treat the modern comparison as an analogy, not an identity claim."
+        ],
+        "practical": "Encode a short permitted example using a supplied mapping table, then explain why the result is not a cryptographic hash.",
+        "minutes": 35,
+        "difficulty": "Intermediate",
+        "concepts": [
+          "Introduction to hashing :: A modern hash function maps input data to a compact output according to defined computational rules.",
+          "Katapayadi scheme :: The traditional scheme maps selected Sanskrit consonants to numerical values that can be expressed through syllables.",
+          "Letter-to-digit mapping :: Encoding begins by applying the agreed mapping table consistently to the letters in an example.",
+          "Reading-order convention :: A recorded Katapayadi value may depend on the direction in which digits are interpreted.",
+          "Pronounceable number representation :: Syllables can make a sequence of numerical values easier to remember or recite.",
+          "Working through an application :: A valid worked example shows the input, each mapping step, the digit sequence and the final reading convention.",
+          "Encoding and decoding :: Encoding maps a representation forward; decoding applies the same convention in reverse to recover the value.",
+          "Modern hash properties :: Modern hashing is designed around properties such as deterministic output and resistance to certain collisions or preimages.",
+          "Compare without conflating :: Both topics involve mappings, but their purposes, rules and technical guarantees differ.",
+          "Introduction to Panini-Backus forms in formal-language syntax :: Formal grammar provides rules for describing valid strings and structured syntax.",
+          "What is BNF notation? :: Backus–Naur Form (BNF) describes formal-language syntax using production rules; it is a modern notation and should not be attributed to Panini."
+        ],
+        "checkpoint": {
+          "question": "Which statement best distinguishes Katapayadi from a modern cryptographic hash?",
+          "options": [
+            "Katapayadi is a traditional syllable-to-number encoding; a cryptographic hash has defined security properties",
+            "They are identical systems with the same security guarantees",
+            "Katapayadi is electronic hardware",
+            "A modern hash is a type of Sanskrit metre"
+          ],
+          "answer_index": 0,
+          "explanation": "A shared idea of mapping does not imply the same purpose or security properties."
+        },
+        "word_by_word": [
+          "saṅkhyā — number",
+          "akṣara — syllable or letter",
+          "paddhati — method or system"
+        ]
+      },
+      {
+        "id": "les_computing_formal_logic",
+        "title": "Formal Structures in Indian Logic and Language",
+        "sanskrit": "तर्कशास्त्रम्",
+        "iast": "tarkaśāstram",
+        "overview": "Study rule-based grammar, language ambiguity and predicate logic as formal ways to analyze structure and meaning.",
+        "content": "A formal description makes selected features of language or reasoning explicit so that they can be examined consistently. Pāṇini's Aṣṭādhyāyī is studied here as a compact, highly organized grammatical tradition whose rules describe Sanskrit forms and operations. A modern formal grammar is a separate tool for specifying which strings fit a chosen syntax. Both invite questions about rules and structure, but they have different histories, notation, aims and intellectual settings; one should not be presented as the other.\n\nAmbiguity is a useful starting point for analysis. A sentence may have more than one possible structure or meaning, and context can help distinguish the intended reading. Before formalizing a sentence, write down its possible interpretations, identify the relevant terms and relations, and state the domain being discussed. Otherwise a symbolic expression can look precise while silently encoding the wrong meaning.\n\nPredicate logic provides modern notation for properties and relations. For example, with a domain of people, “x studies” can be represented as Studies(x); “x studies y” requires a two-place relation such as Studies(x,y). A variable ranges over objects in the stated domain, while equality asserts that two terms denote the same object. Quantifiers can then express claims such as “every student studies” only after the domain and predicate meanings are specified. These examples teach how to move from a clear natural-language claim to a symbolic one; they are classroom notation, not translations of Pāṇini's rules.\n\nFor practice, take one ambiguous sentence, write two readings, choose the intended context, and only then formalize its central relation. Explain which information the formal version makes explicit and which nuance it leaves out. This method links grammar, interpretation and logic without collapsing their distinct traditions.",
+        "english_meaning": "An introduction to formal grammar, ambiguity, language analysis and elementary predicate logic.",
+        "meter": "Instructional course title",
+        "historical_context": "Panini's grammatical tradition is studied as a sophisticated rule-based analysis of Sanskrit. Formal logic and modern symbolic notation have their own histories; comparisons should identify where the analogy is useful and where it ends.",
+        "modern_parallel": "Formal grammars describe how strings can be generated, while predicate logic represents claims and relations. These tools are used in linguistics and computer science, but they do not erase the historical distinctions between traditions.",
+        "source": "Course topics: formal structures in Indian logic; Panini's grammar; language ambiguities and analysis; predicate calculus with equality; examples of predicate logic.",
+        "takeaways": [
+          "Describe a grammar rule as a constraint or transformation over linguistic forms.",
+          "Distinguish a sentence's grammatical structure from its possible interpretations.",
+          "Use a predicate to express a property or relation.",
+          "Read equality as a relation that asserts two terms refer to the same value."
+        ],
+        "practical": "Write two interpretations of an ambiguous sentence, then express a simple property statement using a predicate and variable.",
+        "minutes": 35,
+        "difficulty": "Intermediate",
+        "concepts": [
+          "Formal structures in Indian logic :: The lesson asks how explicit rules and relations help organize reasoning and language analysis.",
+          "Panini's grammar :: The Aṣṭādhyāyī is studied as a compact, rule-organized grammatical tradition for Sanskrit.",
+          "Rules and operations :: A formal rule states how a linguistic form may be analyzed or transformed under defined conditions.",
+          "Language ambiguity :: A sentence may support more than one interpretation when its structure or context is underspecified.",
+          "Context in interpretation :: Surrounding words and situation help distinguish readings that a sentence alone leaves open.",
+          "Analysis of language :: Break an expression into components and state the relationships that support a reading.",
+          "Predicate calculus terminology :: A predicate expresses a property of an object or a relation among objects; this vocabulary is used to formalize claims about a chosen domain.",
+          "Variables and terms :: Variables stand for objects in a domain; terms name or describe the objects under discussion.",
+          "Equality of expression :: Equality states that two terms denote the same object or value within the chosen interpretation.",
+          "Predicate-logic examples :: Translate a short natural-language claim into symbols only after specifying its terms and intended meaning."
+        ],
+        "checkpoint": {
+          "question": "What is a useful first step before translating an ambiguous sentence into predicate logic?",
+          "options": [
+            "Identify its possible readings and clarify the intended context",
+            "Assume every word has one fixed meaning",
+            "Remove all predicates from the sentence",
+            "Treat historical grammar as modern source code"
+          ],
+          "answer_index": 0,
+          "explanation": "Formal translation depends on the intended interpretation and the relationships expressed."
+        },
+        "word_by_word": [
+          "tarka — reasoning",
+          "vyākaraṇa — grammar or grammatical analysis",
+          "sambandha — relation"
+        ]
+      },
+      {
+        "id": "les_computing_science_technology",
+        "title": "Science and Technology in Historical India",
+        "sanskrit": "विज्ञानं तन्त्रज्ञानं च",
+        "iast": "vijñānaṃ tantra-jñānaṃ ca",
+        "overview": "Survey features and development of science and technology in historical India through evidence, context and selected examples.",
+        "content": "Scientific and technical knowledge is not a list of isolated inventions. It develops through observation, reasoning, skilled practice, teaching, record-keeping and the movement of people and ideas. Mathematics may make quantities and relations easier to calculate; engineering applies knowledge and craft to a practical problem using available materials, tools and environmental understanding. The boundaries between these activities can overlap, but they should not be treated as identical.\n\nThe phrase “historical India” covers many regions, communities and periods. A responsible account therefore begins with a specific example and asks what evidence supports it: a text, a material object, an archaeological context or a scholarly study. Next identify the problem or purpose, the documented procedure or material, the date and location where known, and the limits or disagreements in interpretation. A surviving description does not by itself prove how widely a practice was used, and a modern resemblance does not prove that historical actors held the same theory.\n\nUse an evidence map with four headings: claim, source, context and uncertainty. For a mathematical or engineering example, add the problem addressed and the steps or materials described. Separate what the evidence directly records from what a later author infers. Then compare it with a modern practice only on a named dimension—such as measurement, design constraint or representation—and explain where the analogy stops. This method supports a richer history of science and technology without turning diverse traditions into one uninterrupted story or making unsupported claims of modern equivalence.",
+        "english_meaning": "A source-aware survey of scientific practices and technologies in historical India.",
+        "meter": "Instructional course title",
+        "historical_context": "The phrase ancient India covers diverse regions and periods. Any example should be dated and contextualized using appropriate textual, material or scholarly evidence.",
+        "modern_parallel": "Modern science and engineering provide comparison vocabulary for questions about observation, design and evidence. They should not be used to retroactively claim that historical actors held identical concepts or methods.",
+        "source": "Course topics: features and development of science; technology in ancient India; significant scientific and technological examples.",
+        "takeaways": [
+          "Describe a historical scientific or technical example with its context and evidence.",
+          "Separate a documented feature from an unsupported claim of priority.",
+          "Explain how practical needs and available materials shape technical choices.",
+          "Compare past and present without assuming their concepts were identical."
+        ],
+        "practical": "Choose one documented example and prepare a short evidence card with its context, purpose, method and limits of comparison.",
+        "minutes": 30,
+        "difficulty": "Beginner",
+        "concepts": [
+          "Features of scientific activity :: Study observation, classification, calculation, explanation and the preservation of technical knowledge.",
+          "Development of science :: Scientific practices change over time through learning, debate, translation and adaptation.",
+          "Technology and practical needs :: Tools and techniques respond to particular problems, environments, materials and users.",
+          "Regional and temporal diversity :: Historical India includes many communities, regions and periods rather than one uniform setting.",
+          "Textual evidence :: A text can document a concept or procedure, but its genre, date and transmission need examination.",
+          "Material evidence :: Objects, structures and production remains can provide evidence of technical practice when securely interpreted.",
+          "Mathematics and engineering :: Calculation and design practices connect abstract reasoning with construction and measurement tasks.",
+          "Significant examples :: Present each example with a source, context, method and clear statement of what it demonstrates.",
+          "Claims and uncertainty :: Separate well-supported conclusions from unresolved attribution, dating or interpretation.",
+          "Responsible modern comparison :: Compare a historical technique with a present-day concept while stating differences in goals and theory."
+        ],
+        "checkpoint": {
+          "question": "What should accompany a claim about a significant historical technology?",
+          "options": [
+            "Evidence, context, a description of the method and a careful account of uncertainty",
+            "A modern label alone",
+            "An unsupported claim that one invention explains all later technology",
+            "A statement that regional differences do not matter"
+          ],
+          "answer_index": 0,
+          "explanation": "Historical claims need evidence and context, and should distinguish what is known from what remains uncertain."
+        },
+        "word_by_word": [
+          "vijñāna — discernment or specialized knowledge",
+          "tantra — system, method or technical arrangement",
+          "śilpa — craft or skilled practice"
+        ]
+      }
+    ]
+  },
+  "path": {
+    "id": "path_computing_india",
+    "title": "Computing Ideas in Historical India",
+    "level": "Beginner → Intermediate",
+    "weeks": 5,
+    "course_ids": [
+      "course_computing_ancient_india"
+    ]
+  },
+  "flashcard": {
+    "id": "fc_pingala_binary",
+    "course_id": "course_computing_ancient_india",
+    "category": "Computing history",
+    "front": "Pingala and two-symbol patterns",
+    "back": "Metrical analysis provides a historical setting for studying patterns of long and short syllables; mapping them to binary digits is a modern comparison with an explicit ordering convention.",
+    "parallel": "Binary notation uses two symbols with positional weights; the analogy should not be mistaken for electronic computing."
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+backend/app/iksphere.db
+backend/app/assignment_uploads/
+.env
